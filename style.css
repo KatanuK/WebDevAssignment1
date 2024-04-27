@@ -1,0 +1,50 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8c4c4; /* Secondary color (white) */
+    color: #03121d; /* Primary color (pink) */
+}
+
+/* Header styles */
+header {
+    background-color: rgba(169, 93, 155, 0.867); /* Primary color (pink) */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #f4dddd; /* Secondary color (white) */
+    padding: 10px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #03121d; /* Primary color (pink) */
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #03121d; /* Primary color (pink) */
+    padding: 10px;
+}
